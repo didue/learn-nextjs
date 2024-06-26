@@ -1,4 +1,4 @@
-import { BASE_URL } from "../app/(home)/page";
+import { BASE_URL } from '../app/constants';
 import styles from '../style/movie-video.module.css'
 
 /** 영화 트레일러 비디오 조회 */

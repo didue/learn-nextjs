@@ -1,11 +1,11 @@
 import Movie from "../../components/movie";
 import styels from '../../style/home.module.css'
+import { BASE_URL } from "../constants";
 
-export const matadata = {
+export const metadata = {
     title : "Home",
 }
 
-export const BASE_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 const getMovies = async () => {
     return (await fetch(BASE_URL)).json();
 }

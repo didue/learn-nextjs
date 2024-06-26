@@ -1,4 +1,4 @@
-import { BASE_URL } from "../app/(home)/page";
+import { BASE_URL } from '../app/constants';
 import styles from '../style/movie-info.module.css'
 
 /** 영화 상세 정보 조회 */
